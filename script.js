@@ -16,10 +16,14 @@ function getParameterByName(name, url) {
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-window.onload = function() {
-var png="http://csgo-stats.com/" + getParameterByName("id") + "/graphic.png";
-document.getElementById('csimg').src = png;
-var link="http://csgo-stats.com/" + getParameterByName("id");
-document.getElementById('cslink').href = link;
-}
+};
+
+var id = getParameterByName("id");
+var zid = getParameterByName("zid");
+var stats = angular.module("csgostats", []);
+stats.controller("ctrl", function ($scope) {
+	$scope.curl = "http://csgo-stats.com/"+id;
+	$scope.cpng = "http://csgo-stats.com/"+id+"/graphic.png";
+	$scope.zurl = "http://rank.sunucuadresi.com/playerinfo/"+zid;
+	$scope.zpng = "http://rank.sunucuadresi.com/sig/"+zid+"_9.png";	
+});
