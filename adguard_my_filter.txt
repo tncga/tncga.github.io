@@ -1,0 +1,7 @@
+#%#AG_onLoad = function(func) { window.addEventListener('DOMContentLoaded', func); };
+#%#AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
+https://dtrk.slimcdn.com/adspace/127179.js?wsid=
+http://ads.adxpansion.com/public/js/showads.php?zone_id=229888&ver=1
+turkhackteam.org###fadeinbox > CENTER:nth-child(2) > A > IMG
+palimas.com###main
+palimas.com#%#AG_onLoad(function(){if(location.href.indexOf("video.php?id=")>-1){var e;for(x=document.getElementsByTagName("iframe"),e=0;e<x.length+1;e++)x[e].src.indexOf("://openload.co")>-1&&window.location.replace(x[e].src)}});
