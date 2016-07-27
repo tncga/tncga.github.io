@@ -3,6 +3,3 @@
 
 For CSGOStats.com image: https://tncga.github.io/index.html?id={YOURSTEAMID}
 
------------------------------------------------------------------------------------------
-
-My custom adguard filter: https://tncga.github.io/adguard.txt
