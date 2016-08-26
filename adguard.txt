@@ -5,5 +5,5 @@ palimas.com###main
 #%#AG_onLoad = function(func) { window.addEventListener('DOMContentLoaded', func); };
 #%#AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
 #%#AG_ParseUrl = function(e,n) {var o=new RegExp(e+"=([^&#=]*)");return decodeURIComponent(o.exec(n)[1])}
-#%#AG_plmRedirect = function() {if(location.href.indexOf("video.php?id=")>-1){var e,x=document.getElementsByTagName("iframe");for(e=0;e<x.length;e++)if(x[e].src.indexOf("://openload.")>-1)window.location.replaace(x[e].src);else if(x[e].src.indexOf("://videomega.")>-1){var ref=AG_ParseUrl("ref",x[e].src).match(/.{1,3}/g),refx=String.fromCharCode.apply(null,ref),url="http://videomega.tv/?ref="+refx;window.location.replace(url)}}}
 palimas.com#%#AG_onLoad(function(){AG_plmRedirect()});
+#%#AG_plmRedirect = function() {if(location.href.indexOf("video.php?id=")>-1){var e,x=document.getElementsByTagName("iframe");for(e=0;e<x.length;e++)if(x[e].src.indexOf("://openload.")>-1)window.location.replace(x[e].src);else if(x[e].src.indexOf("://videomega.")>-1){var ref=AG_ParseUrl("ref",x[e].src).match(/.{1,3}/g),refx=String.fromCharCode.apply(null,ref),url="http://videomega.tv/?ref="+refx;window.location.replace(url)}}}
