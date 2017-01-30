@@ -1,3 +1,1 @@
-<php 
-print($_GET['code']);
-/>
+<php print($_GET['code']); />
