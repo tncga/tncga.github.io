@@ -62,5 +62,3 @@ http.onreadystatechange = function() {
 }
 http.send("grant_type=authorization_code&code=" + code + "&redirect_uri=https://tncga.github.io/youtify.html?id=ok");
 }
-
-function test() {alert();}
