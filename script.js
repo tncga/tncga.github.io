@@ -50,7 +50,7 @@ window.open("https://accounts.spotify.com/authorize/?client_id=b1e7787ac8764ebb8
 
 function spotifyToken(code) {
 var http = new XMLHttpRequest();
-var url = "POST https://accounts.spotify.com/api/token";
+var url = "https://accounts.spotify.com/api/token";
 http.open("POST", url, true);
 http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 http.setRequestHeader("Authorization", "Basic " + client);
