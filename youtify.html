@@ -1,6 +1,5 @@
 <html><head>
-<script src="script.js" type="text/javascript"></script>
-<script>
+<script src="script.js" type="text/javascript">
   var qs = (function(a) {
     if (a == "") return {};
     var b = {};
@@ -14,6 +13,7 @@
     }
     return b;
 })(window.location.search.substr(1).split('&'));
+  
   spotifyToken(qs['code']);
  </script>
 </head></html>
