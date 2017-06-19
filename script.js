@@ -54,7 +54,8 @@ var url = "https://accounts.spotify.com/api/token";
 http.open("POST", url, true);
 http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 http.setRequestHeader("Authorization", "Basic " + client);
-
+http.setRequestHeader("Access-Control-Allow-Origin", "*");
+	
 http.onreadystatechange = function() {
     if(http.readyState == 4 && http.status == 200) {
         alert(http.responseText);
