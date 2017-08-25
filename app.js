@@ -1,21 +1,3 @@
-/*
-          <div class="main-square">
-            <div class="main-square-title">{{main.title}}</div>
-            <div class="sub-square">
-              <div class="sub-square-title">{{sub.title}}</div>
-              <div class="sub-square-text">{{sub.text}}</div>
-              <button class="button">{{sub.button}}</button>
-            </div>
-            <div class="sub-square">
-              <div class="sub-square-title">{{sub.title}}</div>
-              <div class="sub-square-text">{{sub.text}}</div>
-              <button class="button">{{sub.button}}</button>
-              <button class="button">{{sub.button}}</button>
-            </div>
-          </div>
-*/
-
-
 window.onload = function() {
   load()
 }
@@ -24,8 +6,6 @@ window.onload = function() {
 function load() {
   fetch('data.txt', {
     method: 'GET'
-    pragma: 'no-cache',
-    cache-control: 'no-cache'
   }).then(function(res) {
     if (res.ok) {
       return res.text()
