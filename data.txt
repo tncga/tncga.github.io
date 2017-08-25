@@ -1,8 +1,8 @@
 {  
-   "node.js modules":[  
-      {  
+   "node.js modules":[
+      {
          "title":"tureng",
-         "text":[  
+         "text":[
             "An unofficial tureng.com translater module and commandline application. It uses official API that used in mobile application. It supports English-Turkish and English-German.",
             "second line"
          ],
@@ -18,8 +18,8 @@
          ]
       }
    ],
-   "html and javascript":[  
-      {  
+   "html and javascript":[
+      {
          "title":"tncga.github.io",
          "text":[  
             "JavaScript generated page",
@@ -32,13 +32,13 @@
             }
          ]
       },
-      {  
+      {
          "title":"CuSB",
          "text":[  
             "Custom Steam Browser",
             "A single page that contains google, youtube and soundcloud search input"
          ],
-         "buttons":[  
+         "buttons":[
             {  
                "text":"Github",
                "url":"https://github.com/tncga/tncga.github.io/tree/master/cusb"
