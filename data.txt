@@ -1,0 +1,21 @@
+{
+    "node.js modules": [{
+            "title": "tureng",
+            "text": ["An unofficial tureng.com translater module and commandline application. It uses official API that used in mobile application. It supports English-Turkish and English-German.", "second line"],
+            "buttons": [{
+                    "text": "NPM",
+                    "url": "https://www.npmjs.com/package/tureng"
+                },
+                {
+                    "text": "Github",
+                    "url": "https://github.com/tncga/tureng"
+                }
+            ]
+        }
+    ],
+    "html and javascript": [{
+        "title": "tncga.github.io",
+        "text": [""],
+        "buttons": []
+    }]
+}
