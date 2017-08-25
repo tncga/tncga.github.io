@@ -15,7 +15,12 @@
     ],
     "html and javascript": [{
         "title": "tncga.github.io",
-        "text": [""],
-        "buttons": []
+        "text": ["JavaScript generated page","files that in root folder"],
+        "buttons": ["Github","https://github.com/tncga/tncga.github.io"]
+    }],
+	[{
+        "title": "CuSB",
+        "text": ["Custom Steam Browser","A single page that contains google, youtube and soundcloud search input"],
+        "buttons": ["Github","https://github.com/tncga/tncga.github.io/tree/master/cusb"]
     }]
 }
