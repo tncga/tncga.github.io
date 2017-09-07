@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+html {
+  background: url("green.theme.wallpaper.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header {
+	background: #241d24;
+}
+
+#title {
+	font-family: 'Playfair Display', serif;
+	color: #58b09f;
+	font-weight: bold;
+}
+
+
+#note {
+	font-family: 'Playfair Display', serif;
+	color: #58b09f;
+}
+
+#theme-selecter {
+  font-family: 'Playfair Display', serif;
+	color: white;
+  font-size: 15px;
+  background-color: #25323a;
+}
+
+#footer {
+	background: #241d24;
+}
+
+#footer-text {
+	font-family: 'Playfair Display', serif;
+	color: #58b09f;
+}
+
+#content {
+	font-family: 'Playfair Display', serif;
+	color: black;
+}
+
+#data {
+	font-family: 'Playfair Display', serif;
+	color: black;
+}
+
+.main-square-title {
+  font-family: 'Playfair Display', serif;
+  background: #25323a;
+  font-weight: bolder;
+  color: #58b09f;
+}
+
+.sub-square-title {
+  background: #134f4b;
+  font-family: 'Playfair Display', serif;
+  color: #b7ded2;
+  font-weight: bold;
+}
+
+.sub-square {
+  background: #1a7a6d;
+  font-family: 'Playfair Display', serif;
+  color: #c0e4d8;
+}

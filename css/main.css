@@ -1,36 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-
-body {
-    background-color: #FFF7E0;
-}
-
 #header {
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	height: 50px;
-	background: #C24F3F;
+	display: inline-block;
+	text-align: center;
 }
 
 #title {
-	font-family: 'Playfair Display', serif;
-	color: #FFFFFF;
 	text-align: center;
 	line-height: 50px;
 	font-size: 25px;
-	font-weight: bold;
 	display: inline;
 }
 
 
 #note {
-	font-family: 'Playfair Display', serif;
-	color: #FFFFFF;
 	text-align: center;
 	line-height: 50px;
 	font-size: 15px;
 	display: inline;
+}
+
+#theme-selecter {
+	float: right;
+	line-height: 50px;
+	display: inline;
+}
+
+#theme-selecter:before {
+  content: "\00a0\00a0";
+  font-size: 20px;
+	line-height: 0px;
+}
+#theme-selecter:after {
+  content: "\00a0\00a0";
+  font-size: 20px;
+	line-height: 0px;
 }
 
 #footer {
@@ -39,20 +46,15 @@ body {
 	left: 0;
 	right: 0;
 	height: 50px;
-	background: #C24F3F;
 }
 
 #footer-text {
-	font-family: 'Playfair Display', serif;
-	color: #FFFFFF;
 	text-align: center;
 	line-height: 50px;
 	font-size: 15px;
 }
 
 #content {
-	font-family: 'Playfair Display', serif;
-	color: black;
 	font-size: 15px;
 	padding: 60px 10px;
 }
@@ -89,8 +91,6 @@ body {
 }
 
 #data {
-	font-family: 'Playfair Display', serif;
-	color: black;
 	font-size: 15px;
 	padding: 20px 10px;
 }
@@ -105,30 +105,20 @@ body {
 }
 
 .main-square-title {
-  font-family: 'Playfair Display', serif;
   text-align: center;
   line-height: 40px;
   font-size: 20px;
-  background: #D8C468;
-  font-weight: bolder;
   color: #453E17;
 }
 
 .sub-square-title {
-  background: #FFE980;
-  font-family: 'Playfair Display', serif;
-  color: #000000;
   text-align: center;
   line-height: 30px;
   font-size: 17px;
   width: 100%;
-  font-weight: bold;
 }
 
 .sub-square {
-  background: #FFF0A6;
-  font-family: 'Playfair Display', serif;
-  color: #000000;
   text-align: center;
   line-height: 20px;
   font-size: 15px;

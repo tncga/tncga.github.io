@@ -1,5 +1,18 @@
 window.onload = function() {
-  console.log("ok")
+  var themes = ["./css/green.theme.css", "./css/old.theme.css"]
+
+  if (themes.includes(getCookie("theme")) == true) {
+    document.getElementById('color-theme').href=getCookie("theme")
+  } else {
+    document.getElementById('color-theme').href=themes[0]
+  }
+  document.getElementById('theme-selecter').addEventListener('click', function() {
+    var colorTheme = document.getElementById('color-theme').href
+    var currentTheme="./css/" + colorTheme.match("css\/(.*?)$")[1]
+    var nextTheme = themes[(themes.indexOf(currentTheme)+1) % themes.length]
+    document.getElementById('color-theme').href=nextTheme
+    setCookie("theme", nextTheme)
+  })
   load()
 }
 
@@ -37,6 +50,7 @@ function load() {
     })
 
     document.getElementById("content").innerHTML = mainsq
+    console.log("Content loaded!");
   }).catch(function(err) {
     console.log(err)
   })
@@ -85,4 +99,25 @@ function htmlBuild(classname, ...keys) {
     default:
       return 'error'
   }
+}
+
+// https://www.w3schools.com/js/js_cookies.asp
+function setCookie(cname, cvalue, exdays) {
+    document.cookie = cname + "=" + cvalue +  ";path=/";
+}
+
+// https://www.w3schools.com/js/js_cookies.asp
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
 }
