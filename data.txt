@@ -44,5 +44,6 @@
             }
          ]
       }
-   ]
+   ],
+   "Python":[{"title": "center active window", "text": "", "buttons":[{"text": "Gist.Github", "url": "https://gist.github.com/tncga/10119dc7498c84aea2e3c6f07d6636f2"}]}]
 }
