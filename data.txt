@@ -1,49 +1,57 @@
 {
-   "node.js modules":[
-      {
-         "title":"tureng",
-         "text":[
-            "An unofficial tureng.com translater module and commandline application. It uses official API that used in mobile application. It supports English-Turkish and English-German."
-         ],
-         "buttons":[
-            {
-               "text":"NPM",
-               "url":"https://www.npmjs.com/package/tureng"
-            },
-            {
-               "text":"Github",
-               "url":"https://github.com/tncga/tureng"
-            }
-         ]
-      }
-   ],
-   "html and javascript":[
-      {
-         "title":"tncga.github.io",
-         "text":[
-            "JavaScript generated page",
-            "files that in root folder"
-         ],
-         "buttons":[
-            {
-               "text":"Github",
-               "url":"https://github.com/tncga/tncga.github.io"
-            }
-         ]
+  "node.js modules": [{
+    "title": "tureng",
+    "text": [
+      "An unofficial tureng.com translater module and commandline application. It uses official API that used in mobile application. It supports English-Turkish and English-German."
+    ],
+    "buttons": [{
+        "text": "NPM",
+        "url": "https://www.npmjs.com/package/tureng"
       },
       {
-         "title":"CuSB",
-         "text":[
-            "Custom Steam Browser",
-            "A single page that contains google, youtube and soundcloud search input"
-         ],
-         "buttons":[
-            {
-               "text":"Github",
-               "url":"https://github.com/tncga/tncga.github.io/tree/master/cusb"
-            }
-         ]
+        "text": "Github",
+        "url": "https://github.com/tncga/tureng"
       }
-   ],
-   "Python":[{"title": "center_active_window.py for xfce4 keyboard shortcuts", "text": ["Script for aligning the center of user's active window with the center of the monitor"], "buttons":[{"text": "Gist.Github", "url": "https://gist.github.com/tncga/10119dc7498c84aea2e3c6f07d6636f2"}]}]
+    ]
+  }],
+  "html and javascript": [{
+      "title": "tncga.github.io",
+      "text": [
+        "JavaScript generated page",
+        "files that in root folder"
+      ],
+      "buttons": [{
+        "text": "Github",
+        "url": "https://github.com/tncga/tncga.github.io"
+      }]
+    },
+    {
+      "title": "CuSB",
+      "text": [
+        "Custom Steam Browser",
+        "A single page that contains google, youtube and soundcloud search input"
+      ],
+      "buttons": [{
+        "text": "Github",
+        "url": "https://github.com/tncga/tncga.github.io/tree/master/cusb"
+      }]
+    }
+  ],
+  "Python": [{
+    "title": "center_active_window.py for xfce4 keyboard shortcuts",
+    "text": ["Script for aligning the center of user's active window with the center of the monitor"],
+    "buttons": [{
+      "text": "Gist.Github",
+      "url": "https://gist.github.com/tncga/10119dc7498c84aea2e3c6f07d6636f2"
+    }]
+  },
+  {
+    "title": "sync-bg.py",
+    "text": [" Sync Windows 10 Spotlight pictures to custom folder "],
+    "buttons": [{
+      "text": "Github",
+      "url": "https://github.com/tncga/sync-bg"
+    }]
+  }
+  ]
 }
